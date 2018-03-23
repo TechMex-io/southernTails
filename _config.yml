@@ -27,8 +27,15 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+sass:
+  sass_dir: _sass/uikit/scss
+  style: compressed
 plugins:
   - jekyll-feed
+  - jekyll-sass-converter
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
