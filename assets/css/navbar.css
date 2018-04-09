@@ -1,0 +1,12 @@
+
+.bg-clear {
+  background-color: transparent !important;
+}
+.bg-purple {
+  background-color:#392f8a !important;
+}
+
+.nav-size {
+  padding: 0 25px !important;
+  height: 55px !important;
+}

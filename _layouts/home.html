@@ -1,9 +1,63 @@
 ---
 layout: default
 ---
-{{ content }}
+
+<div class="uk-cover-container uk-height-large uk-padding-remove-right uk-padding-remove-left" id="hero-image">
+  <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="" style="z-index:-10;" uk-cover>
+  <div uk-grid>
+    <div class="uk-width-1-2@m">
+      <img src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="width:90%; padding-top:8%; padding-left:10%;">
+      <p class="text-white uk-text-center">This is a little text...</p>
+    </div>
+  </div>
+</div>
+
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+      <h1 class="uk-heading-primary">Our Services</h1>
+      <div class="uk-margin-large-top" uk-grid>
+        <div class="uk-width-1-2@s">
+          <h1 class="uk-heading">{{ page.service1 }}</h1>
+          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+          <p>{{ page.service1_description }}</p>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
+        </div>
+        <div class="uk-width-1-2@s">
+          <h1 class="uk-heading">{{ page.service2 }}</h1>
+          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+          <p>{{ page.service2_description }}</p>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
+        </div>
+      </div>
+      <div class="uk-margin-large-top" uk-grid>
+        <div class="uk-width-1-2@s">
+          <h1 class="uk-heading">{{ page.service3 }}</h1>
+          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+          <p>{{ page.service3_description }}</p>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
+        </div>
+        <div class="uk-width-1-2@s">
+          <h1 class="uk-heading">{{ page.service4 }}</h1>
+          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+          <p>{{ page.service4_description }}</p>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
+        </div>
+      </div>
+    </div>
+    <div class="uk-container uk-margin-large-top">
+      <h1 class="uk-heading-line"><span>{{ page.body_heading }}</span></h1>
+      <div class="uk-margin-medium-top" uk-grid>
+        <div class="uk-width-1-1@s">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+</div>
 
 
+
+
+<!-- below here is the original code, only keeping as reference as I build -->
 <!-- <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>

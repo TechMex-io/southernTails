@@ -4,9 +4,8 @@
   -%}
   {%- if page_paths -%}
 
-  <nav id="navBar" class="uk-navbar-container uk-hidden" style="background-color:#392f8a; padding: 0 25px; height:55px;" uk-navbar uk-sticky>
-    <!-- ="top:400;animation:true;" -->
-    <div class="uk-navbar-left">
+  <nav id="navBar" class="uk-navbar-container uk-hidden nav-size"  uk-navbar uk-sticky>
+    <div id="navLogo" class="uk-navbar-left">
       <a class="uk-navbar-item uk-logo" rel="author" href="{{  "/"  | relative_url }}"><img src="/assets/ST-Nav-Logo.svg" alt="Southern Tails, a paws destination" width="300"></a>
     </div>
     <div class="uk-navbar-right">
@@ -40,17 +39,3 @@
   </nav>
   {%- endif -%}
 </header>
-
-<script>
-document.addEventListener("scroll", function() {
-  let nav = document.getElementById('navBar');
-  if (window.pageYOffset > 300)
-  nav.classList.remove('uk-hidden');
-  });
-
-document.addEventListener("scroll", function() {
-  let nav = document.getElementById('navBar');
-  if (window.pageYOffset < 300)
-  nav.classList.add('uk-hidden');
-  });
-</script>
