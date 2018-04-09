@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-header_text: Southern Tails is this...
+header_text: header_text=Lorem ipsum, consectetur adipiscing elit. Integer pretium commodo iaculis. Quisque luctus ac diam vel iaculis.
 service1: Service 1
 # service1_photo: photo...
 service1_description: Service 1 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

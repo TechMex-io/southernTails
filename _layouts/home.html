@@ -5,9 +5,22 @@ layout: default
 <div class="uk-cover-container uk-height-large uk-padding-remove-right uk-padding-remove-left" id="hero-image">
   <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="" style="z-index:-10;" uk-cover>
   <div uk-grid>
-    <div class="uk-width-1-2@m">
-      <img src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="width:90%; padding-top:8%; padding-left:10%;">
-      <p class="text-white uk-text-center">This is a little text...</p>
+    <div class="uk-width-1-1@s uk-width-1-2@m">
+      <!-- 640px and smaller -->
+      <img class="uk-hidden@s" src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="padding:15% 10%;">
+      <p class="uk-hidden@s text-white uk-text-center" style="padding:0 10%;">{{ page.header_text }}</p>
+      <!-- S 640+ -->
+      <img class="uk-visible@s uk-hidden@m" src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="padding:4% 18%;">
+      <p class="uk-visible@s uk-hidden@m text-white uk-text-center" style="padding:0 15%;">{{ page.header_text }}</p>
+      <!-- m 960+ -->
+      <img class="uk-visible@m uk-hidden@l" src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="padding:8% 8%;">
+      <p class="uk-visible@m uk-hidden@l text-white uk-text-center" style="padding:0 8%;">{{ page.header_text }}</p>
+      <!-- l 1200+ -->
+      <img class="uk-visible@l uk-hidden@xl" src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="width:auto; padding-top:8%; padding-left:10%;">
+      <p class="text-white uk-text-center uk-visible@m uk-visible@l uk-hidden@xl" style="width:auto; padding-left:10%;">{{ page.header_text }}</p>
+      <!-- xl 1600+ -->
+      <img class="uk-visible@xl" src="./assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" style="margin-top: 2%; padding: 0 20%;">
+      <p class="text-white uk-text-center uk-visible@xl" style="padding:2% 20%;">{{ page.header_text }}</p>
     </div>
   </div>
 </div>
