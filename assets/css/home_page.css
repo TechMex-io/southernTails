@@ -11,3 +11,12 @@
 .text-purple {
   color: purple !important;
 }
+
+.under-score:after {
+  background: #392f8a;
+  content: '';
+  display: block;
+  height: .2rem;
+  margin: 1rem 0 0;
+  width: 15%;
+}
