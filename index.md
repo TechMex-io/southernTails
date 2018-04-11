@@ -5,7 +5,7 @@
 layout: home
 header_text: header_text=Lorem ipsum, consectetur adipiscing elit. Integer pretium commodo iaculis. Quisque luctus ac diam vel iaculis.
 service1: Service 1
-# service1_photo: photo...
+# service1_photo: george_sm.jpg
 service1_description: Service 1 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 service2: Service 2
 # service2_photo: photo...

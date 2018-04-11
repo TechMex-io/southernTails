@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Grooming
-permalink: /grooming.html
+permalink: /grooming/
 header_text: Grooming Services
 body_heading_1: Deluxe Package
 body_desc_1: Sed a maximus metus. Etiam vitae auctor nunc. Proin fringilla arcu non dui condimentum, tempor facilisis diam semper. Vivamus diam sapien, dictum vitae facilisis sit amet, aliquet pellentesque erat. Sed convallis nisl in velit fringilla, et eleifend lacus tempor. Praesent in turpis mauris. Ut a sagittis massa. Praesent est ligula, consequat vitae egestas ut, convallis id ipsum.
