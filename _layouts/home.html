@@ -16,28 +16,36 @@ layout: homeDefault
         <div class="uk-margin-small-top" uk-grid>
           <div class="uk-width-1-2@s">
             <h1 class="uk-heading under-score">{{ page.service1 }}</h1>
-            <img src="/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
-            <p>{{ page.service1_description }}</p>
+            <img src="/assets/images/{{ page.service1_photo }}" alt="">
+            <ul>{% for description in page.service1_descriptions %}
+              <li>{{ description.msg }}</li>{% endfor %}
+            </ul>
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
           </div>
           <div class="uk-width-1-2@s">
             <h1 class="uk-heading under-score">{{ page.service2 }}</h1>
-            <img src="/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
-            <p>{{ page.service2_description }}</p>
+            <img src='/assets/images/{{ page.service2_photo }}' alt="">
+            <ul>{% for description in page.service2_descriptions %}
+              <li>{{ description.msg }}</li>{% endfor %}
+            </ul>
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
           </div>
         </div>
         <div class="uk-margin-large-top" uk-grid>
           <div class="uk-width-1-2@s">
             <h1 class="uk-heading under-score">{{ page.service3 }}</h1>
-            <img src="/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
-            <p>{{ page.service3_description }}</p>
+            <img src="/assets/images/{{ page.service3_photo }}" alt="">
+            <ul>{% for description in page.service3_descriptions %}
+              <li>{{ description.msg }}</li>{% endfor %}
+            </ul>
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
           </div>
           <div class="uk-width-1-2@s">
             <h1 class="uk-heading under-score">{{ page.service4 }}</h1>
-            <img src="/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
-            <p>{{ page.service4_description }}</p>
+            <img src="/assets/images/{{ page.service4_photo }}" alt="">
+            <ul>{% for description in page.service4_descriptions %}
+              <li>{{ description.msg }}</li>{% endfor %}
+            </ul>
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
           </div>
         </div>

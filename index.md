@@ -10,17 +10,31 @@ header_image_desktop: home-Header_D.jpg
 header_image_large_desktop: home-Header_LD.jpg
 header_text: At Southern Tails, our aim is to positively impact the lives of dogs and their owners by providing outstanding, trustworthy, and professional services. 
 service1: Grooming/Bathing
-# service1_photo: george_sm.jpg
-service1_description: Service 1 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+service1_photo: service-Grooming.jpg
+service1_descriptions: 
+  - msg: Basic grooming fees are based on size of breed
+  - msg: Many specialty services offered, including Tooth Brushing
+  - msg: Oversized pets, mats and tangles, fleas/ticks, sedated, and hard to handle animals may incur additional charges
 service2: Luxury Boarding Condos
-# service2_photo: photo...
-service2_description: Service 2 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+service2_photo: service-Boarding.jpg
+service2_descriptions:
+  - msg: Condos are a home-like environment and 4x6'
+  - msg: Second guests receive 25% savings
+  - msg: Food and medications offered up to three times each day
+  - msg: All guests must be screened for their vaccinations
 service3: Climate Controled Daycare
-# service3_photo: photo...
-service3_description: Service 3 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+service3_photo: service-Daycare.jpg
+service3_descriptions:
+  - msg: Dogs are accompanied by technicians 100% of their stay
+  - msg: All dogs must be completely vaccinated
+  - msg: Dogs are harnessed and leashed for walks
+  - msg: Small/Medium dogs and large dogs have separate play areas 
 service4: Pet Boutique
-# service4_photo: photo...
-service4_description: Service 4 Description=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+service4_photo: service-Boutique.jpg
+service4_descriptions:
+  - msg: We only offer high-quality foods that cannot be found in “big box” stores
+  - msg: We focus on local artisans and provide a venue for high quality craftmanship dedicated to pets
+  - msg: Guarantees satisfaction for all products
 body_heading: Southern Tails, A Paws Destination
 ---
 Welcome to Southern Tails, an encompassing pet facility that is unique in every way.
