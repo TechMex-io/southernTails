@@ -1,38 +1,25 @@
 ---
 layout: default
 ---
-
-<!-- <style>
-  .hero {
-    background-image: url({{ page.hero_sm }}), rgba(44,44,44,.4);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-  
-</style> -->
-
-<div class="uk-cover-container uk-height-large uk-padding-remove-right uk-padding-remove-left" id="hero-image-grooming">
-  <img class="uk-position-center-left uk-hidden@m"src="/assets/images/groomingHeaderSmall.jpg" alt="" style="z-index:-10;" uk-cover>
-  <img class="uk-visible@m" src="/assets/images/groomingHeader.jpg" alt="" style="z-index:-10;" uk-cover>
-  <div uk-grid>
-    <div class="uk-width-1-1">
-      <h1 class="uk-heading-primary uk-position-center text-white uk-text-center">{{ page.header_text }}</h1>
-    </div>
-  </div>
+<!-- Header -->
+<div class="uk-flex uk-flex-middle uk-flex-center uk-height-large hero" id="service-hero-image">
+  <h1 class="uk-heading-primary text-white">{{ page.header_text }}</h1>
 </div>
 
-<div class="uk-container uk-margin-medium-top">
-  <!-- <h1 class="uk-heading-line"><span>{{ page.header_text }}</span></h1> -->
-  <div class="uk-margin-small-top" uk-grid>
-    <div class="uk-width-1-1@s">
-      {{ content }}
+<div class="uk-container uk-container-expand">
+
+  <!-- General Description of Serive -->
+  <div class="uk-margin-medium-top">
+    <!-- <h1 class="uk-heading-line"><span>{{ page.header_text }}</span></h1> -->
+    <div class="uk-margin-small-top" uk-grid>
+      <div class="uk-width-1-1@s">
+        {{ content }}
+      </div>
     </div>
   </div>
-</div>
 
-<div class="uk-section uk-section-muted">
-    <div class="uk-container">
+  <!-- Different types of Service -->
+  <div class="uk-section">
       <div class="uk-margin-small-top" uk-grid>
 
         <div class="uk-width-1-1@s">
@@ -56,6 +43,43 @@ layout: default
           <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>
         </div>
       </div>
-    </div>
+  </div>
 
 </div>
+
+
+<style>
+  /* Mobile First */
+  .hero {
+    background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('/assets/images/{{ page.header_image_mobile }}');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  /* Tablets & Horizontal Phone */
+  @media only screen and (min-width: 640px) {
+      .hero {
+    background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('/assets/images/{{ page.header_image_tablet }}');
+    }
+  }
+  /* Tablets Landscape */
+  @media only screen and (min-width: 960px) {
+      .hero {
+    background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('/assets/images/{{ page.header_image_tablet_h }}');
+    }
+  }
+  /* Desktops */
+  @media only screen and (min-width: 1200px) {
+      .hero {
+    background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('/assets/images/{{ page.header_image_desktop }}');
+    }
+  }
+  /* Large Desktops */
+  @media only screen and (min-width: 1600px) {
+    .hero {
+      background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('/assets/images/{{ page.header_image_large_desktop }}');
+    }
+  }
+  
+</style>

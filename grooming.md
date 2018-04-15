@@ -3,6 +3,11 @@ layout: service
 title: Grooming
 permalink: /grooming/
 header_text: Grooming Services
+header_image_mobile: grooming-Header_M.jpg
+header_image_tablet: grooming-Header_T.jpg
+header_image_tablet_h: grooming-Header_Th.jpg
+header_image_desktop: grooming-Header_D.jpg
+header_image_large_desktop: grooming-Header_LD.jpg
 body_heading_1: Deluxe Package
 body_desc_1: Sed a maximus metus. Etiam vitae auctor nunc. Proin fringilla arcu non dui condimentum, tempor facilisis diam semper. Vivamus diam sapien, dictum vitae facilisis sit amet, aliquet pellentesque erat. Sed convallis nisl in velit fringilla, et eleifend lacus tempor. Praesent in turpis mauris. Ut a sagittis massa. Praesent est ligula, consequat vitae egestas ut, convallis id ipsum.
 body_heading_2: Upgrade Package
