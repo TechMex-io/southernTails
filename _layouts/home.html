@@ -2,6 +2,7 @@
 layout: homeDefault
 ---
 <div class="uk-height-large hero" id="hero-image">
+    {%- include header.html -%}
     <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-left@s" >
       <div>
         <img src="/assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" class="home-logo">
@@ -10,12 +11,13 @@ layout: homeDefault
     </div>
 </div>
 
+
 <div class="uk-container uk-container-expand uk-margin-medium-top uk-margin-medium-bottom">
   <div class=" class="uk-section uk-section-default" ">
         <!-- <h1 class="uk-heading-primary">Our Services</h1> -->
         <div class="uk-margin-small-top" uk-grid>
           <div class="uk-width-1-2@s">
-            <h1 class="uk-heading under-score">{{ page.service1 }}</h1>
+            <h2 class="uk-heading under-score">{{ page.service1 }}</h2>
             <img src="/assets/images/{{ page.service1_photo }}" alt="">
             <ul>{% for description in page.service1_descriptions %}
               <li>{{ description.msg }}</li>{% endfor %}
@@ -23,7 +25,7 @@ layout: homeDefault
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
           </div>
           <div class="uk-width-1-2@s">
-            <h1 class="uk-heading under-score">{{ page.service2 }}</h1>
+            <h2 class="uk-heading under-score">{{ page.service2 }}</h2>
             <img src='/assets/images/{{ page.service2_photo }}' alt="">
             <ul>{% for description in page.service2_descriptions %}
               <li>{{ description.msg }}</li>{% endfor %}
@@ -33,7 +35,7 @@ layout: homeDefault
         </div>
         <div class="uk-margin-large-top" uk-grid>
           <div class="uk-width-1-2@s">
-            <h1 class="uk-heading under-score">{{ page.service3 }}</h1>
+            <h2 class="uk-heading under-score">{{ page.service3 }}</h2>
             <img src="/assets/images/{{ page.service3_photo }}" alt="">
             <ul>{% for description in page.service3_descriptions %}
               <li>{{ description.msg }}</li>{% endfor %}
@@ -41,7 +43,7 @@ layout: homeDefault
             <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
           </div>
           <div class="uk-width-1-2@s">
-            <h1 class="uk-heading under-score">{{ page.service4 }}</h1>
+            <h2 class="uk-heading under-score">{{ page.service4 }}</h2>
             <img src="/assets/images/{{ page.service4_photo }}" alt="">
             <ul>{% for description in page.service4_descriptions %}
               <li>{{ description.msg }}</li>{% endfor %}
@@ -50,7 +52,7 @@ layout: homeDefault
           </div>
         </div>
       <div class="uk-margin-large-top">
-        <h1 class="uk-heading-line"><span>{{ page.body_heading }}</span></h1>
+        <h2 class="uk-heading-line"><span>{{ page.body_heading }}</span></h2>
         <div class="uk-margin-medium-top" uk-grid>
           <div class="uk-width-1-1@s">
             {{ content }}
@@ -63,7 +65,7 @@ layout: homeDefault
 <style>
   /* Mobile First */
   .hero {
-    background: linear-gradient(rgba(70, 68, 70, 0.7), rgba(70, 68, 70, 0.7)),url('/assets/images/{{ page.header_image_mobile }}');
+    background-image: linear-gradient(rgba(70, 68, 70, 0.7), rgba(70, 68, 70, 0.7)),url('/assets/images/{{ page.header_image_mobile }}');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -80,51 +82,45 @@ layout: homeDefault
   /* Tablets & Horizontal Phone */
   @media only screen and (min-width: 640px) {
     .hero {
-      background: url('/assets/images/{{ page.header_image_tablet }}');
+      background-image: url('/assets/images/{{ page.header_image_tablet }}');
     }
     .home-logo {
-      margin: 13% 0 0 10% !important;
-      /* max-width: 550px !important; */
+      margin: 0 0 0 10%;
     }
     .home-logo-text {
-      margin: 0 0 0 0 !important;
-      padding: 0 0 0 10%;
-      /* max-width: 550px !important; */
+      margin: 0;
+      padding-left: 10%;
     }
   }
   /* Tablets Landscape */
   @media only screen and (min-width: 960px) {
       .hero {
-    background: url('/assets/images/{{ page.header_image_tablet_h }}');
+    background-image: url('/assets/images/{{ page.header_image_tablet_h }}');
     }
     .home-logo {
-      margin: 8% 0 0 10% !important;
-      max-width: 550px !important;
+      margin: 0;
+      padding: 0 0 5% 15%;
+      max-width: 500px !important;
     }
     .home-logo-text {
       margin: 0 0 0 0 !important;
       padding: 0 0 0 10%;
-      max-width: 550px !important;
+      max-width: 450px !important;
     }
   }
   /* Desktops */
   @media only screen and (min-width: 1200px) {
-      .hero {
-    background: url('/assets/images/{{ page.header_image_desktop }}');
-    }
+
   }
   /* Large Desktops */
   @media only screen and (min-width: 1600px) {
     .hero {
-      background: url('/assets/images/{{ page.header_image_large_desktop }}');
+      background-image: url('/assets/images/{{ page.header_image_large_desktop }}');
     }
     .home-logo {
-      margin: 1% 0 0 30% !important;
       max-width: 650px !important;
     }
     .home-logo-text {
-      margin: 0 0 0 30% !important;
-      padding: 0 0 0 10%;
       max-width: 650px !important;
     }
   }

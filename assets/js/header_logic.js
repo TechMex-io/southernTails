@@ -5,7 +5,7 @@ document.addEventListener("scroll", function() {
   const logo = document.getElementById('navLogo')
 
     if (window.pageYOffset > 300){
-      nav.classList.remove('uk-hidden')
+      // nav.classList.remove('uk-hidden')
       nav.classList.add('bg-purple')
       logo.classList.remove('uk-invisible')
     }
