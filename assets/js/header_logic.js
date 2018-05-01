@@ -22,3 +22,7 @@ document.addEventListener("scroll", function() {
 
   window.addEventListener("hashchange", shiftWindow);
  
+
+  setTimeout(function(){
+    UIkit.modal("#modal-center").show();
+  }, 3000)

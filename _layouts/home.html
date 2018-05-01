@@ -6,7 +6,9 @@ layout: homeDefault
     <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-left@s" >
       <div>
         <img src="/assets/ST-Logo_Original.svg" alt="Sourthern Tails Logo" class="home-logo">
-        <p class="text-white uk-text-center home-logo-text" >{{ page.header_text }}</p>
+        <p class="text-white uk-text-center home-logo-text" >{{ page.header_text }}
+        <button class="header-button-mobile uk-button uk-button-default"><a href="tel:281-741-3247">CALL FOR INFORMATION</a></button>
+        <button class="header-button uk-button uk-button-default">CALL FOR INFORMATION: 281-741-3247</button></p>
       </div>
     </div>
 </div>
@@ -14,43 +16,43 @@ layout: homeDefault
 
 <div class="uk-container uk-container-expand uk-margin-medium-top uk-margin-medium-bottom">
   <div class=" class="uk-section uk-section-default" ">
-        <!-- <h1 class="uk-heading-primary">Our Services</h1> -->
-        <div class="uk-margin-small-top" uk-grid>
-          <div class="uk-width-1-2@s">
-            <h2 class="uk-heading under-score">{{ page.service1 }}</h2>
-            <img src="/assets/images/{{ page.service1_photo }}" alt="">
-            <ul>{% for description in page.service1_descriptions %}
-              <li>{{ description.msg }}</li>{% endfor %}
-            </ul>
-            <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
-          </div>
-          <div class="uk-width-1-2@s">
-            <h2 class="uk-heading under-score">{{ page.service2 }}</h2>
-            <img src='/assets/images/{{ page.service2_photo }}' alt="">
-            <ul>{% for description in page.service2_descriptions %}
-              <li>{{ description.msg }}</li>{% endfor %}
-            </ul>
-            <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
-          </div>
+      <!-- <h1 class="uk-heading-primary">Our Services</h1> -->
+      <div class="uk-margin-small-top" uk-grid>
+        <div class="uk-width-1-2@s">
+          <h2 class="uk-heading under-score">{{ page.service1 }}</h2>
+          <img src="/assets/images/{{ page.service1_photo }}" alt="">
+          <ul>{% for description in page.service1_descriptions %}
+            <li>{{ description.msg }}</li>{% endfor %}
+          </ul>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
         </div>
-        <div class="uk-margin-large-top" uk-grid>
-          <div class="uk-width-1-2@s">
-            <h2 class="uk-heading under-score">{{ page.service3 }}</h2>
-            <img src="/assets/images/{{ page.service3_photo }}" alt="">
-            <ul>{% for description in page.service3_descriptions %}
-              <li>{{ description.msg }}</li>{% endfor %}
-            </ul>
-            <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
-          </div>
-          <div class="uk-width-1-2@s">
-            <h2 id="boutique" class="uk-heading under-score">{{ page.service4 }}</h2>
-            <img src="/assets/images/{{ page.service4_photo }}" alt="">
-            <ul>{% for description in page.service4_descriptions %}
-              <li>{{ description.msg }}</li>{% endfor %}
-            </ul>
-            <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
-          </div>
+        <div class="uk-width-1-2@s">
+          <h2 class="uk-heading under-score">{{ page.service2 }}</h2>
+          <img src='/assets/images/{{ page.service2_photo }}' alt="">
+          <ul>{% for description in page.service2_descriptions %}
+            <li>{{ description.msg }}</li>{% endfor %}
+          </ul>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
         </div>
+      </div>
+      <div class="uk-margin-large-top" uk-grid>
+        <div class="uk-width-1-2@s">
+          <h2 class="uk-heading under-score">{{ page.service3 }}</h2>
+          <img src="/assets/images/{{ page.service3_photo }}" alt="">
+          <ul>{% for description in page.service3_descriptions %}
+            <li>{{ description.msg }}</li>{% endfor %}
+          </ul>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>
+        </div>
+        <div class="uk-width-1-2@s">
+          <h2 id="boutique" class="uk-heading under-score">{{ page.service4 }}</h2>
+          <img src="/assets/images/{{ page.service4_photo }}" alt="">
+          <ul>{% for description in page.service4_descriptions %}
+            <li>{{ description.msg }}</li>{% endfor %}
+          </ul>
+          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">Learn More</a>  
+        </div>
+      </div>
       <div class="uk-margin-large-top">
         <h2 class="uk-heading-line"><span>{{ page.body_heading }}</span></h2>
         <div class="uk-margin-medium-top" uk-grid>
@@ -61,27 +63,67 @@ layout: homeDefault
       </div>
       <div class="uk-margin-small-top uk-margin-medium-top" uk-grid>
         <div class="uk-margin-small-bottom uk-width-2-3@s">
-          <h2 class="uk-heading">1234 Address</h2>
+          <h2 class="uk-heading">11720 Broadway St. #102, Pearland TX</h2>
           <iframe
             width=100%
             height="450"
             frameborder="0" style="border:0"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBtpR214aZlLGoRP9HH2Ea1KzDz14I4gFw
-              &q=1800 n stanton,el paso+TX" allowfullscreen>
+              &q=11720+Broadway+St+pearland+Texas" allowfullscreen>
           </iframe>
         </div>
         <div class="uk-width-1-3@s">
-            <form action="https://formspree.io/george.ramirez2@gmail.com"
-            method="POST">
-          <input type="text" name="email" placeholder="Your email">
-          <br>
-          <input name="message" placeholder="Write us a message">
-          <br>
-          <input type="submit" value="Send">
+          <form action="https://formspree.io/george.ramirez2@gmail.com"
+          method="POST">
+            <fieldset class="uk-fieldset">
+        
+                <h2 class="uk-heading">Contact Us</h2>
+        
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" name="User's Email:" placeholder="your_email@here.com">
+                </div>
+        
+                <div class="uk-margin">
+                    <select name="In Reference To:" class="uk-select">
+                      <option value="General">General Question</option>
+                      <option value="Grooming">Grooming</option>
+                      <option value="Boarding">Boarding</option>
+                      <option value="Daycare">Daycamp</option>
+                      <option value="Boutique">Boutique</option>
+                    </select>
+                </div>
+        
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="11" name="User's Message:" placeholder="Message"></textarea>
+                </div>
 
-      </form>
+                <input type="submit" value="Send" class="uk-button uk-button-default uk-width-1-1" style="border: 1px solid darkgrey;">
+        
+            </fieldset>
+        </form>
         </div>
+      </div>
   </div>
+</div>
+
+<!-- modal -->
+<!-- <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>Open</a> -->
+
+<div id="modal-center" class="uk-flex-top" uk-modal>
+
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+      <div class="uk-modal-header" style="background:white; padding: 0;">
+          <h2 class="uk-modal-title">Opening Month-Day-2018</h2>
+      </div>
+
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+
+      <p>We are pleased to announce we will open to the public Month Day 2018.</p>
+      <h3>We are hiring</h3> 
+      <p>Contact Jordan or Susan at 281-741-3247</p>
+
+    </div>
 </div>
 
 <style>
@@ -100,6 +142,25 @@ layout: homeDefault
     padding: 5% 5%;
     max-width: 400px;
   }
+  .header-button {
+    display: none;
+  }
+  .header-button-mobile{
+    display: block;
+    margin: 1% auto;
+    background: #392f8a;
+    color:white;
+    border-radius: 25px;
+  }
+  .header-button-mobile a {
+    color: white;
+  }
+  .header-button-mobile:hover,
+  .header-button-mobile a:hover {
+    background: #392f8a;
+    color: white;
+    text-decoration: none;
+  }
 
   /* Tablets & Horizontal Phone */
   @media only screen and (min-width: 640px) {
@@ -112,6 +173,15 @@ layout: homeDefault
     .home-logo-text {
       margin: 0;
       padding-left: 10%;
+    }
+    .header-button-mobile{
+    display: none;
+    }
+    .header-button {
+    display: block;
+    margin: 1% auto;
+    background: transparent;
+    color:white;
     }
   }
   /* Tablets Landscape */
@@ -148,3 +218,4 @@ layout: homeDefault
   }
   
 </style>
+

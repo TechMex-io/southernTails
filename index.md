@@ -22,7 +22,7 @@ service2_descriptions:
   - msg: Second guests receive 25% savings
   - msg: Food and medications offered up to three times each day
   - msg: All guests must be screened for their vaccinations
-service3: Climate Controled Daycare
+service3: Climate Controlled Daycamp
 service3_photo: service-Daycare.jpg
 service3_descriptions:
   - msg: Dogs are accompanied by technicians 100% of their stay
