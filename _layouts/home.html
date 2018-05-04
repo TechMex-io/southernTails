@@ -28,7 +28,7 @@ layout: homeDefault
         </div>
         <div class="uk-width-1-2@s">
           <h2 class="uk-heading under-score">{{ page.service2 }}</h2>
-          <img src='{{site.baseurl}}/assets/images/{{ page.service2_photo }}' alt="">
+          <img src="{{site.baseurl}}/assets/images/{{ page.service2_photo }}" alt="">
           <ul>{% for description in page.service2_descriptions %}
             <li>{{ description.msg }}</li>{% endfor %}
           </ul>
@@ -187,7 +187,7 @@ layout: homeDefault
   /* Tablets Landscape */
   @media only screen and (min-width: 960px) {
       .hero {
-    background-image: url('{{site.baseurl}}/assets/images/{{ page.header_image_tablet_h }}');
+    background-image: url('/assets/images/{{ page.header_image_tablet_h }}');
     }
     .home-logo {
       margin: 0;
