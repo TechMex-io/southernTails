@@ -26,4 +26,5 @@ body {
 /* hover for cards */
 .pageLink:hover {
   text-decoration: none;
+  box-shadow: 0 0 21px rgba(33,33,33,.5);
 }
