@@ -27,3 +27,8 @@ body {
 .pageLink:hover {
   text-decoration: none;
 }
+
+.buttonWraper {
+  display: flex;
+  justify-content: center;
+}
