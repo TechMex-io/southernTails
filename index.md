@@ -9,13 +9,15 @@ header_image_tablet_h: home-Header_Th.jpg
 header_image_desktop: home-Header_D.jpg
 header_image_large_desktop: home-Header_LD.jpg
 header_text: At Southern Tails, our aim is to positively impact the lives of dogs and their owners by providing outstanding, trustworthy, and professional services. 
-service1: Grooming/Bathing
+service1: Grooming & Bathing
+service1_short_name: Grooming
 service1_photo: service-Grooming.jpg
 service1_descriptions: 
   - msg: Basic grooming fees are based on size of breed
   - msg: Many specialty services offered, including Tooth Brushing
   - msg: Oversized pets, mats and tangles, fleas/ticks, sedated, and hard to handle animals may incur additional charges
 service2: Luxury Boarding Condos
+service2_short_name: Boarding
 service2_photo: service-Boarding.jpg
 service2_descriptions:
   - msg: Condos are a home-like environment and 4x6'
@@ -23,6 +25,7 @@ service2_descriptions:
   - msg: Food and medications offered up to three times each day
   - msg: All guests must be screened for their vaccinations
 service3: Climate Controlled Daycamp
+service3_short_name: Daycamp
 service3_photo: service-Daycare.jpg
 service3_descriptions:
   - msg: Dogs are accompanied by technicians 100% of their stay
@@ -30,6 +33,7 @@ service3_descriptions:
   - msg: Dogs are harnessed and leashed for walks
   - msg: Small/Medium dogs and large dogs have separate play areas 
 service4: Pet Boutique
+service4_short_name: Boutique
 service4_photo: service-Boutique.jpg
 service4_descriptions:
   - msg: We only offer high-quality foods that cannot be found in “big box” stores
