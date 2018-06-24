@@ -26,5 +26,4 @@ body {
 /* hover for cards */
 .pageLink:hover {
   text-decoration: none;
-  border: solid 2px black;
 }
