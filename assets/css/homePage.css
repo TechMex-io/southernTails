@@ -22,3 +22,8 @@ body {
   margin: 1rem 0 0;
   width: 15%;
 }
+
+/* hover for cards */
+.pageLink:hover {
+  text-decoration: none;
+}
