@@ -32,3 +32,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.serviceButton {
+  border: solid 1px darkgray;
+  border-radius: 10px;
+}
