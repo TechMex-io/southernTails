@@ -246,7 +246,7 @@
     <h6>Dog and Cat grooming and bording</h6>
     <h6>11720 Broadway St, Pearland, TX</h6>
   </div>
-  <div>
+  <div class="phoneNumber">
     <h6 class="uk-visable@m tabletMobileOFF">(281) 741-3247</h6>
     <h4 class="uk-hidden@m"><a href="tel:281-741-3247">(281) 741-3247</a></h4>
   </div>
@@ -305,16 +305,17 @@
 
   @media only screen and (max-width: 640px){
     .footer {
-    grid-template-columns: 1fr;
-    }
-
-    .tabletMobileOFF{
-      display: none;
+      grid-template-columns: 1fr;
     }
 
     .businessName {
       text-align: center;
     }
+    
+    .tabletMobileOFF{
+      display: none;
+    }
+
   }
 
 </style>
