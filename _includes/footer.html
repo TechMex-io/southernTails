@@ -289,24 +289,8 @@
     color: black;
   }
 
-  @media only screen and (max-width: 640px){
-    .footer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    }
-
-    .tabletMobileOFF{
-      display: none;
-    }
-
-    .businessName {
-      text-align: center;
-    }
-  }
-
   @media only screen and (max-width: 960px){
     .footer {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     }
 
@@ -319,9 +303,20 @@
     }
   }
 
-  /* p {
-    padding: 0;
-  } */
+  @media only screen and (max-width: 640px){
+    .footer {
+    grid-template-columns: 1fr;
+    }
+
+    .tabletMobileOFF{
+      display: none;
+    }
+
+    .businessName {
+      text-align: center;
+    }
+  }
+
 </style>
 
 
