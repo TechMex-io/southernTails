@@ -241,12 +241,21 @@
 </div>
 
 <div class="footer">
-  <P>New Footer</P>
+  <div>stuff</div>
+  <div>stuff 2</div>
+  <div>stuff 3</div>
 </div>
 
 <style>
   .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 10px;
     background: orange;
+  }
+  p {
+    padding: 0;
   }
 </style>
 
