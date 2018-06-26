@@ -247,12 +247,13 @@
     <h6>11720 Broadway St, Pearland, TX</h6>
   </div>
   <div>
-    <h6><a href="tel:281-741-3247"><span uk-icon="icon:receiver;"></span> (281) 741-3247</a></h6>
+    <h6 class="uk-hidden@s">(281) 741-3247</h6>
+    <h6 class="uk-hidden@m"><a href="tel:281-741-3247">(281) 741-3247</a></h6>
   </div>
-  <div><a href="#"><span uk-icon="icon:facebook;"></span></a>
-    <a href="#"><span uk-icon="icon:instagram;"></span></a>
-    <a href="#"><span uk-icon="icon:twitter;"></span></a>
-    <a href="#"><span uk-icon="icon:yelp;"></span></a>
+  <div class="icons"><a href="#"><span uk-icon="icon:facebook; ratio: 3.5"></span></a>
+    <a href="#"><span uk-icon="icon:instagram; ratio: 3.5"></span></a>
+    <a href="#"><span uk-icon="icon:twitter; ratio: 3.5"></span></a>
+    <a href="#"><span uk-icon="icon:yelp; ratio: 3.5"></span></a>
   </div>
 </div>
 
@@ -274,6 +275,21 @@
     margin-top: 0;
     margin-bottom: 0;
     font-weight: bold;
+  }
+
+  .footer div a {
+    margin-right: 1em;
+  }
+
+  .icons a {
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 640px){
+    .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
   }
 
   /* p {
