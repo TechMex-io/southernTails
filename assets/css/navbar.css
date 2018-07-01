@@ -10,3 +10,19 @@
   padding: 0 25px !important;
   height: 55px !important;
 }
+/* css grid starts here */
+.nav_parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(25px, auto);
+  grid-gap: .5em;
+  justify-items: center;
+}
+
+.nav_menu {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 25px;
+  grid-gap: .5em;
+  justify-items: center;
+}
