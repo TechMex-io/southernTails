@@ -1,5 +1,5 @@
 
-.bg-clear {
+/* .bg-clear {
   background-color: transparent !important;
 }
 .bg-purple {
@@ -9,7 +9,7 @@
 .nav-size {
   padding: 0 25px !important;
   height: 55px !important;
-}
+} */
 /* css grid starts here */
 .nav_parent {
   display: grid;
@@ -17,10 +17,17 @@
   grid-template-rows: minmax(25px, auto);
   grid-gap: .5em;
   justify-items: center;
+  background-color: #015596;
 }
 
 .nav_menu {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   justify-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.nav_menu div {
+  padding: 0px 25px;
 }
