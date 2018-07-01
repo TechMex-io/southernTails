@@ -13,7 +13,7 @@
 
 
 /* css grid starts here */
-.nav_parent {
+.nav_parent{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: minmax(25px, auto);
