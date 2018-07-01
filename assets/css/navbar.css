@@ -35,7 +35,7 @@
   padding: 0px 25px;
 }
 
-li a {
-  color:#015596;
+button a {
+  color:#015596 !important;
   text-decoration: none;
 }
