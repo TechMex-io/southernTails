@@ -47,7 +47,7 @@
 </nav> -->
 
 <div class="nav_parent">
-  <div class="uk-hidden@m">Hello</div>
+  <div class="uk-hidden@m uk-navbar-right"><a href="#mobile-nav" uk-toggle style="text-decoration:none; color:white; font-size:21px;">&#9776;</a></div>
   <div class="nav_logo">
     <img src="{{site.baseurl}}/assets/STLogo_new.png" width="500">
   </div>
@@ -55,6 +55,7 @@
 
 <div class="uk-visible@m nav_menu">
     <div></div>
+    <div>GROOMING</div>
     <div>BOARDING</div>
     <div>DAYCAMP</div>
     <div>BOUTIQUE</div>
@@ -62,4 +63,18 @@
     <div>CONTACT</div>
     <div></div>
 </div>
+
+<div id="mobile-nav" uk-offcanvas="flip: true; esc-close: true; bg-close: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column" style="background-color:#015596">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+          <li class="uk-active"><a href="grooming/index.html">Grooming</a></li>
+          <li class="uk-active"><a href="about/index.html">Boarding</a></li>
+          <li class="uk-active"><a href="about/index.html">Daycare</a></li>
+          <li class="uk-active"><a href="about/index.html">Boutique</a></li>
+          <li class="uk-active"><a href="about/index.html">Contact</a></li>
+        </ul>
+
+    </div>
+  </div>
 
