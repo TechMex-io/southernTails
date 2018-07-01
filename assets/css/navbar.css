@@ -34,3 +34,8 @@
 .nav_menu div {
   padding: 0px 25px;
 }
+
+li a {
+  color:#015596;
+  text-decoration: none;
+}
