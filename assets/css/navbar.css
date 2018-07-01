@@ -35,7 +35,7 @@
   padding: 0px 25px;
 }
 
-button a {
+ul li.uk-active a {
   color:#015596 !important;
   text-decoration: none;
 }
