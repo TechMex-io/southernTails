@@ -22,7 +22,5 @@
 .nav_menu {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 25px;
-  grid-gap: .5em;
   justify-items: center;
 }
