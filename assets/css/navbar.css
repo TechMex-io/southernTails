@@ -41,6 +41,7 @@ div a {
 
 div a:hover {
   text-decoration: none;
+  color: orange;
 }
 
 ul li.uk-active a {
