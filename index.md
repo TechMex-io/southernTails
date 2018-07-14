@@ -9,7 +9,7 @@ header_image_tablet_h: home-Header_Th.jpg
 header_image_desktop: home-Header_D.jpg
 header_image_large_desktop: home-Header_LD.jpg
 header_text: At Southern Tails, our aim is to positively impact the lives of dogs and their owners by providing outstanding, trustworthy, and professional services. 
-service1: Grooming & Bathing
+service1: Full Service Dog Spa
 service1_short_name: Grooming
 service1_photo: service-Grooming.jpg
 service1_descriptions: 
@@ -24,8 +24,8 @@ service2_descriptions:
   - msg: Second guests receive 25% savings
   - msg: Food and medications offered up to three times each day
   - msg: All guests must be screened for their vaccinations
-service3: Climate Controlled Daycamp
-service3_short_name: Daycamp
+service3: Doggie Day Camp
+service3_short_name: Day Camp
 service3_photo: service-Daycare.jpg
 service3_descriptions:
   - msg: Dogs are accompanied by technicians 100% of their stay
