@@ -9,7 +9,13 @@ header_image_tablet_h: grooming-Header_Th.jpg
 header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
 body_heading_1: Grooming &amp; Bathing Include
-body_desc_1: 1. testing 2. testing
+body_desc_1:
+  - item_1: first on list
+  - item_1: second on list
+  - item_1: third on list
+  - item_1: fouth on list
+  - item_1: fifth on list
+  - item_1: sixth on list
 body_heading_2: Upgrade Package
 body_desc_2: Sed a maximus metus. Etiam vitae auctor nunc. Proin fringilla arcu non dui condimentum, tempor facilisis diam semper. Vivamus diam sapien, dictum vitae facilisis sit amet, aliquet pellentesque erat. Sed convallis nisl in velit fringilla, et eleifend lacus tempor. Praesent in turpis mauris. Ut a sagittis massa. Praesent est ligula, consequat vitae egestas ut, convallis id ipsum.
 body_heading_3: Standard Package

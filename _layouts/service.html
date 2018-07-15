@@ -31,7 +31,15 @@ layout: default
         <div class="uk-width-1-1@s">
           <h1 class="uk-heading under-score">{{ page.body_heading_1 }}</h1>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-          <p>{{ page.body_desc_1 }}</p>
+
+          <!-- <p>{{ page.body_desc_1 }}</p> -->
+
+          <ul>{% for items in page.body_desc_1 %}
+            <li>
+              {{ items.item_1 }}
+            </li>
+              {% endfor %}
+          </ul>
           <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>
         </div>
 
