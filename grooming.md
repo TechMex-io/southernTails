@@ -8,13 +8,13 @@ header_image_tablet: grooming-Header_T.jpg
 header_image_tablet_h: grooming-Header_Th.jpg
 header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
-body_heading_1: We want to keep things simple — no need to add what should already come with a groom or bath.
+body_heading_1: Included with each groom and bath.
 body_desc_1:
   - desc_1_item: Both come with nails being trimmed and filed with a Drimmel nail grinder.
   - desc_1_item: The anal glands will be expressed.
   - desc_1_item: The ears will be cleaned and the ear hair will be pulled if necessary.
   - desc_1_item: Included is the tearless facial, bath, fluff dry, and brush-out.
-  - desc_1_item: _Grooms will include the fur cut after a personal consultation with one of our expert groomers._
+  - desc_1_item: <i>* Grooms will include the fur cut after a personal consultation with one of our expert groomers.</i>
 body_heading_2: Upgrade Package
 body_desc_2: Sed a maximus metus. Etiam vitae auctor nunc. Proin fringilla arcu non dui condimentum, tempor facilisis diam semper. Vivamus diam sapien, dictum vitae facilisis sit amet, aliquet pellentesque erat. Sed convallis nisl in velit fringilla, et eleifend lacus tempor. Praesent in turpis mauris. Ut a sagittis massa. Praesent est ligula, consequat vitae egestas ut, convallis id ipsum.
 body_heading_3: Standard Package
