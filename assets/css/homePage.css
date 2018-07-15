@@ -13,12 +13,12 @@ body {
 }
 
 .under-score:after {
-  background: #392f8a;
+  background: #015596;
   content: '';
   display: block;
-  height: .2rem;
+  height: .1rem;
   margin: 1rem 0 0;
-  width: 15%;
+  width: 20%;
 }
 
 /* hover for cards */
