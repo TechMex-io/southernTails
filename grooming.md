@@ -39,5 +39,5 @@ during their appointment. We dedicate ourselves to providing a
 professional, safe and clean state of the art facility. We strive to offer
 clients an experience with only highly-knowledgeable and well-trained
 professionals.
-<hr>
+<hr class="hr_blk">
 Give us a call for pricing, as prices vary per breed.
