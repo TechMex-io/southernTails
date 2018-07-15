@@ -40,22 +40,51 @@ layout: default
             </li>
               {% endfor %}
           </ul>
-          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>
+          <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
         </div>
 
         <div class="uk-width-1-1@s">
-          <h1 id="boarding" class="uk-heading under-score">{{ page.body_heading_2 }}</h1>
+          <h3 id="boarding" class="uk-heading under-score">{{ page.body_heading_2 }}</h3>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-          <p>{{ page.body_desc_2 }}</p>
-          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>  
+          <ul>{% for items in page.body_desc_2 %}
+            <li>
+              {{ items.desc_2_item }}
+            </li>
+              {% endfor %}
+          </ul>
+          <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>   -->
         </div>
 
         <div class="uk-width-1-1@s">
-          <h1 id="daycare" class="uk-heading under-score">{{ page.body_heading_3 }}</h1>
+          <h3 id="daycare" class="uk-heading under-score">{{ page.body_heading_3 }}</h3>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-          <p>{{ page.body_desc_3 }}</p>
-          <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>
+          <ul>{% for items in page.body_desc_3 %}
+            <li>
+              {{ items.desc_3_item }}
+            </li>
+              {% endfor %}
+          </ul>
+          <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
         </div>
+
+        <div class="uk-width-1-1@s">
+          <p class="uk-heading under-score">{{ page.body_heading_4 }}</p>
+          <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
+          <ul>{% for items in page.body_desc_4 %}
+            <li>
+              {{ items.desc_4_item }}
+            </li>
+              {% endfor %}
+          </ul>
+          <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
+        </div>
+
+        <div class="uk-width-1-1@s">
+          <p class="uk-heading under-score">{{ page.body_heading_5 }}</p>
+          <hr class="hr_blk">
+          <p>{{ page.body_cta }}</p>
+        </div>
+
       </div>
   </div>
 
