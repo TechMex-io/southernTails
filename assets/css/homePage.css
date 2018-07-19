@@ -1,8 +1,11 @@
 /* Custome Styles for Home Page */
 
 body {
-  /* background: #ede6df; */
-  background: lightblue
+  background: rgb(210, 234, 242)
+}
+
+.bkg_tan {
+ background: #ede6df;
 }
 
 .text-white {
