@@ -10,11 +10,11 @@ header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
 body_heading_1: Included with each Groom &amp; Bath
 grooming_img_1: ct6cp7_B.jpg
-gromming_img_2: ct6cp7_A.jpeg
-gromming_img_3: BGk9p9SQ.jpeg
-gromming_img_4: Ia8kUZwA.jpeg
-gromming_img_5: Isf8owCw.jpeg
-gromming_img_6: w85VfaSA.jpeg
+grooming_img_2: ct6cp7_A.jpeg
+grooming_img_3: BGk9p9SQ.jpeg
+grooming_img_4: Ia8kUZwA.jpeg
+grooming_img_5: Isf8owCw.jpeg
+grooming_img_6: w85VfaSA.jpeg
 body_desc_1:
   - desc_1_item: Both come with nails being trimmed and filed with a Drimmel nail grinder.
   - desc_1_item: The anal glands will be expressed.
