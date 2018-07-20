@@ -9,10 +9,10 @@ layout: default
 </section> -->
 
 <section class="uk-container uk-container-large bkg_tan">
-  <h1 class="uk-heading-primary" style="padding-top:40px;">{{ page.title }}</h1>
+  <h1 class="uk-heading-primary" style="padding-top:20px;">{{ page.title }}</h1>
 
   <!-- General Description of Serive -->
-  <div class="uk-margin-medium-top">
+  <div class="uk-margin-small-top">
     <div class="uk-margin-small-top" uk-grid>
       <div class="uk-width-1-2@s">
         {{ content }}
@@ -26,11 +26,12 @@ layout: default
   <!-- Different types of Service -->
   <div class="uk-section uk-margin-small-top uk-margin-small-bottom uk-padding-small">
       <div class="uk-margin-small-top" uk-grid>
-
-        <div class="uk-width-1-1@s">
+        <div class="uk-width-1-2@s">
+          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+        </div>
+        <div class="uk-width-1-2@s">
           <h3 class="uk-heading under-score">{{ page.body_heading_1 }}</h3>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-
           <!-- <p>{{ page.body_desc_1 }}</p> -->
 
           <ul>{% for items in page.body_desc_1 %}
