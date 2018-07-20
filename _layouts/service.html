@@ -13,11 +13,13 @@ layout: default
 
   <!-- General Description of Serive -->
   <div class="uk-margin-small-top">
-    <div class="uk-margin-small-top" uk-grid>
-      <div class="uk-width-1-2@s">
+    <div class="uk-margin-small-top uk-grid_match" uk-grid>
+      <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
         {{ content }}
       </div>
-      <div>image lives here</div>
+      <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
+          <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" style="height:300px;" alt="">
+        </div>
     </div>
   </div>
 
@@ -26,10 +28,10 @@ layout: default
   <!-- Different types of Service -->
   <div class="uk-section uk-margin-small-top uk-margin-small-bottom uk-padding-small">
       <div class="uk-margin-small-top uk-grid-match" uk-grid>
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20">
-          <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20 bkg_tan">
+          <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" style="height:300px;" alt="">
         </div>
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
           <h3 class="uk-heading under-score">{{ page.body_heading_1 }}</h3>
           <!-- <img src="southernTails/assets/images/service-Gooming.jpg" alt=""> -->
           <!-- <p>{{ page.body_desc_1 }}</p> -->
@@ -43,7 +45,7 @@ layout: default
           <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
         </div>
 
-        <div class="uk-width-1-2@s">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
           <h3 class="uk-heading under-score">{{ page.body_heading_2 }}</h3>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
           <ul>{% for items in page.body_desc_2 %}
@@ -54,14 +56,14 @@ layout: default
           </ul>
           <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>   -->
         </div>
-        <div class="uk-width-1-2@s">
-          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
+          <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" style="height:500px;" alt="">
         </div>
 
-        <div class="uk-width-1-2@s">
-          <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt="">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
+          <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" style="height:500px;" alt="">
         </div>
-        <div class="uk-width-1-2@s">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
           <h3 class="uk-heading under-score">{{ page.body_heading_3 }}</h3>
           <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
           <ul>{% for items in page.body_desc_3 %}
