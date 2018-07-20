@@ -25,11 +25,11 @@ layout: default
 
   <!-- Different types of Service -->
   <div class="uk-section uk-margin-small-top uk-margin-small-bottom uk-padding-small">
-      <div class="uk-margin-small-top" uk-grid>
-        <div class="uk-width-1-2@s">
+      <div class="uk-margin-small-top uk-grid-match" uk-grid>
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20">
           <img src="{{site.baseurl}}/assets/images/justin-veenema-156592-unsplash.jpg" alt="">
         </div>
-        <div class="uk-width-1-2@s">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
           <h3 class="uk-heading under-score">{{ page.body_heading_1 }}</h3>
           <!-- <img src="southernTails/assets/images/service-Gooming.jpg" alt=""> -->
           <!-- <p>{{ page.body_desc_1 }}</p> -->
@@ -98,6 +98,13 @@ layout: default
 
 
 <style>
+
+  .padding-left-20 {
+    padding-left: 20px;
+  }
+  .padding-right-20 {
+    padding-right: 20px;
+  }
   /* Mobile First */
   .hero {
     background: linear-gradient(rgba(70, 68, 70, 0.6), rgba(70, 68, 70, 0.6)),url('{{site.baseurl}}/assets/images/{{ page.header_image_mobile }}');
