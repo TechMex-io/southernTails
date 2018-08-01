@@ -91,7 +91,7 @@ layout: default
           <div class="uk-width-1-1@s">
             <h3>{{ page.body_heading_links }}</h3>
             <ul style="list-style-type: none;">{% for items in page.body_desc_links %}
-             <li> <a href="{{items.desc_url}}">
+             <li> <a class="downLoadLink" uk-icon="download" href="{{items.desc_url}}">
                 {{ items.desc_links }}
               </a></li>
                 {% endfor %}
@@ -120,6 +120,16 @@ layout: default
   }
   .padding-top-0 {
     padding-top: 0px;
+  }
+  /* link buttons */
+  .downLoadLink {
+    padding: 8px;
+    border-radius: 15px;
+    background: #015596;
+    color:#ede6df;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0px;
   }
   /* Mobile First */
   .hero {

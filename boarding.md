@@ -46,9 +46,7 @@ body_desc_links:
   - desc_links: Dog Boarding Application
   - desc_url: http://georgeramirezphotography.com/
   - desc_url: http://tech-mex.io/
-body_desc_urls:
-  - desc_url: http://georgeramirezphotography.com/
-  - desc_url: http://tech-mex.io/
+
 
 body_heading_5 : All animal guests must be able to be handled in a safe, and loving manner, therefore we cannot permit overtly-aggressive animals.
 body_cta : Give us a call for pricing, as prices vary per breed.
