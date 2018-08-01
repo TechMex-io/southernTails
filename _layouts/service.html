@@ -90,11 +90,13 @@ layout: default
           <!-- List of links-->
           <div class="uk-width-1-1@s">
             <h3>{{ page.body_heading_links }}</h3>
-            <ul style="list-style-type: none;">{% for items in page.body_desc_links %}
-             <li>{% for url in page.body_desc_urls %} 
+            <ul style="list-style-type: none;">
+              {% for items in page.body_desc_links %}
+             <li>
                <a class="downLoadLink" uk-icon="download" href="{{url.desc_url}}">
                 {{ items.desc_links }}
-              </a>{% endfor %}</li>
+              </a>
+            </li>
                 {% endfor %}
             </ul>
           </div>

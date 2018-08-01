@@ -43,10 +43,9 @@ body_desc_4:
 body_heading_links : Please complete the following application and return prior to boarding
 body_desc_links:
   - desc_links: Cat Boarding Application
+    - desc_url: http://georgeramirezphotography.com/
   - desc_links: Dog Boarding Application
-body_desc_urls:
-  - desc_url: http://georgeramirezphotography.com/
-  - desc_url: http://tech-mex.io/
+    - desc_url: http://tech-mex.io/
 
 
 body_heading_5 : All animal guests must be able to be handled in a safe, and loving manner, therefore we cannot permit overtly-aggressive animals.
