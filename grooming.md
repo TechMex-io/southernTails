@@ -25,7 +25,7 @@ body_desc_1:
   - desc_1_item: Fluff Dry
   - desc_1_item: Brush-out
   - desc_1_item: Earrings, Bows, and Bandanas
-  - desc_1_item: &ast; Grooms with clippers only performed on appropriate breeds and are tailored to our clients’ requests
+  - desc_1_item: \*Grooms with clippers only performed on appropriate breeds and are tailored to our clients’ requests
 
 body_heading_2: Shampoo Upgrades
 body_desc_2:
@@ -37,7 +37,7 @@ body_desc_2:
   - desc_2_item: Tea Tree & Aloe Medicated - For the pets with skin irritations, this veterinarian recommended formula is infused with aloe vera and tea tree oil to soothe their skin.
   - desc_2_item: Silky Show - Infused with saffron oil and natural silk protein, this is made for the pet that can use a little extra sheen and moisture in their fur. Leaves the fur looking show stopping beautiful.
   - desc_2_item: Hypo-Allergenic - For those with extra sensitivities and allergies, we recommend this gentle tear-free solution.
-  - desc_2_item: &ast; All Shampoo upgrades may be converted to Specialty Spas by adding a tooth brushing
+  - desc_2_item: \*All Shampoo upgrades may be converted to Specialty Spas by adding a tooth brushing
 
 body_heading_3: A La Carte Services 
 body_desc_3:
