@@ -51,6 +51,8 @@ body_desc_4:
   - desc_4_item: Excessive shedding
   - desc_4_item: Difficult temperament/sedative required (extreme cases)
 
+body_heading_links : null
+
 body_heading_5 : At Southern Tails, we are committed to only using premium products during their appointment. We dedicate ourselves to providing a professional, safe and clean state of the art facility. We strive to offer clients an experience with only highly-knowledgeable and well-trained professionals.
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
