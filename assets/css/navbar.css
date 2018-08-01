@@ -1,15 +1,15 @@
 
-/* .bg-clear {
-  background-color: transparent !important;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,800i');
+/* message on header */
+#home_message_header {
+  font-family: 'Montserrat:800i', sans-serif;
 }
-.bg-purple {
-  background-color:#392f8a !important;
+#home_message_body {
+  font-family: 'Montserrat:400', sans-serif;
 }
-
-.nav-size {
-  padding: 0 25px !important;
-  height: 55px !important;
-} */
+#home_message_cta {
+  font-family: 'Montserrat:800', sans-serif;
+}
 
 
 /* css grid starts here */
