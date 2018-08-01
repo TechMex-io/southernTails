@@ -91,9 +91,10 @@ layout: default
           <div class="uk-width-1-1@s">
             <h3>{{ page.body_heading_links }}</h3>
             <ul style="list-style-type: none;">{% for items in page.body_desc_links %}
-             <li> <a class="downLoadLink" uk-icon="download" href="{{items.desc_url}}">
+             <li>{% for url in page.body_desc_urls %} 
+               <a class="downLoadLink" uk-icon="download" href="{{url.desc_url}}">
                 {{ items.desc_links }}
-              </a></li>
+              </a>{% endfor %}</li>
                 {% endfor %}
             </ul>
           </div>
@@ -130,6 +131,7 @@ layout: default
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 0px;
+    margin-bottom: 10px;
   }
   /* Mobile First */
   .hero {

@@ -44,6 +44,7 @@ body_heading_links : Please complete the following application and return prior 
 body_desc_links:
   - desc_links: Cat Boarding Application
   - desc_links: Dog Boarding Application
+body_desc_urls:
   - desc_url: http://georgeramirezphotography.com/
   - desc_url: http://tech-mex.io/
 
