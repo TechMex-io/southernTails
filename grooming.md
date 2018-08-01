@@ -56,15 +56,11 @@ body_heading_links : null
 body_heading_5 : At Southern Tails, we are committed to only using premium products during their appointment. We dedicate ourselves to providing a professional, safe and clean state of the art facility. We strive to offer clients an experience with only highly-knowledgeable and well-trained professionals.
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
-In order to keep our best friends in best health, veterinarians
-recommend regular grooming of your pet. Not only is the grooming
-process necessary for our long-furred friends, it also serves as a quick
-body-wellness exam. Overall conditions will be noted during their stay,
-and all notes will be reported back to their caretakers. Should any
-concerns be reported we then recommend to see your veterinarian.
+All specialists in the pet industry recommend regular grooming. This service not only assists with the overall appearance, but also, with the pet’s general health. At Southern Tails, we take these recommendations serious. We are committed to providing excellent, comprehensive service to every client. Our technicians are trained to conduct an overall inspection on every pet during every service. Each technician carefully documents the pet’s behavior, specific techniques utilized, and products used during the visit. Our observations are always recorded and discussed with the caretakers before and after the service is completed. We report any issue that we notice during the grooming process and provide suggestions to ensure that all future appointments are successful.
 
-At Southern Tails, we offer both baths and grooms for dogs. All pups
-must present paper documentation showing they are current on their
-rabies vaccinations in order to qualify. As much as we love babies, we
-don’t recommend them visiting us until they have had their 2nd puppy
-shot series in their system for at least 24 hours.
+####Grooming Health Requirements
+We provide services to all breeds. However, there are specific health requirements for every pet.
+- Rabies Vaccinations (at least 24 hours in advance and must be confirmed by veterinarian documentation)
+- 2nd Set of Vaccinations in Series (puppies only)
+- Dogs with medical needs must be cleared by the veterinarian. Grooms/Baths cannot be performed on dogs with stitches, cuts, lacerations, abrasions, etc.
+
