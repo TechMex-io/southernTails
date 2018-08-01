@@ -11,7 +11,7 @@ header_image_large_desktop: grooming-Header_LD.jpg
 body_heading_1: Facilities Include
 grooming_img_1: ct6cp7_B.jpeg
 grooming_img_2: service-boarding.jpg
-grooming_img_3: 6ee9HBgg.jpeg
+grooming_img_3: smilingDog.jpg
 grooming_img_4: 447fE0bQ.jpeg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: QG-DYE4A.jpeg
