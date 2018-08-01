@@ -1,17 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,800,900');
 /* message on header */
 #home_message_header {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 700;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
 }
 #home_message_body {
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 400;
 }
 #home_message_cta {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 600;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
 }
 
 
