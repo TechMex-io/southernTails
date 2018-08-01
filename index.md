@@ -18,7 +18,7 @@ service1_descriptions:
   - msg: Oversized pets, mats and tangles, fleas/ticks, sedated, and hard to handle animals may incur additional charges
 service2: Luxury Boarding Condos
 service2_short_name: Boarding
-service2_photo: service-Boarding.jpg
+service2_photo: QG-DYE4A.jpeg
 service2_descriptions:
   - msg: Condos are a home-like environment and 4x6'
   - msg: Second guests receive 25% savings
