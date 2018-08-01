@@ -11,7 +11,7 @@ header_image_large_desktop: home-Header_LD.jpg
 header_text: At Southern Tails, our aim is to positively impact the lives of dogs and their owners by providing outstanding, trustworthy, and professional services. 
 service1: Full Service Dog Spa
 service1_short_name: Grooming
-service1_photo: ct6cp7_B.jpg
+service1_photo: ct6cp7_B.jpeg
 service1_descriptions: 
   - msg: Basic grooming fees are based on size of breed
   - msg: Many specialty services offered, including Tooth Brushing
