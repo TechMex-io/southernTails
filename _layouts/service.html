@@ -28,7 +28,7 @@ layout: default
     <!-- Different types of Service -->
     <div class="uk-section uk-margin-small-top uk-margin-small-bottom uk-padding-small">
         <div class="uk-margin-small-top" uk-grid>
-          <div class="uk-flex uk-flex-middle">
+          <div class="uk-flex uk-flex-middle uk-margin-large-bottom">
             <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20 padding-top-0 uk-text-center bkg_tan">
               <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_4 }}" style="width:500px;" alt="">
             </div>
@@ -47,19 +47,19 @@ layout: default
             </div>
           </div>
 
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
-            <h3 class="uk-heading under-score">{{ page.body_heading_2 }}</h3>
-            <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-            <ul>{% for items in page.body_desc_2 %}
-              <li>
-                {{ items.desc_2_item }}
-              </li>
-                {% endfor %}
-            </ul>
-            <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a>   -->
-          </div>
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-top-0 uk-text-center bkg_tan uk-visible@s">
-            <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_3 }}" style="width:500px;" alt="">
+          <div class="uk-flex uk-flex-middle uk-margin-large-bottom">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
+              <h3 class="uk-heading under-score">{{ page.body_heading_2 }}</h3>
+              <ul>{% for items in page.body_desc_2 %}
+                <li>
+                  {{ items.desc_2_item }}
+                </li>
+                  {% endfor %}
+              </ul>
+            </div>
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-top-0 uk-text-center bkg_tan uk-visible@s">
+              <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_3 }}" style="width:500px;" alt="">
+            </div>
           </div>
 
           <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan uk-visible@s">
