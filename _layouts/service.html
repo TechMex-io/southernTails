@@ -75,7 +75,7 @@ layout: default
               </ul>
             </div>
           </div>
-
+          <!-- Last list of bulleted items with no photo -->
           <div class="uk-width-1-1@s">
             <p>{{ page.body_heading_4 }}</p>
             <ul>{% for items in page.body_desc_4 %}
@@ -85,7 +85,18 @@ layout: default
                 {% endfor %}
             </ul>
           </div>
+          <!-- List of links-->
+          <div class="uk-width-1-1@s">
+            <p>{{ page.body_heading_links }}</p>
+            <ul>{% for items in page.body_desc_links %}
+              <li>
+                {{ items.desc_links }}
+              </li>
+                {% endfor %}
+            </ul>
+          </div>
 
+          <!-- Little bottom of the page text above footer -->
           <div class="uk-width-1-1@s uk-text-center">
             <p>{{ page.body_heading_5 }}</p>
           </div>

@@ -40,6 +40,11 @@ body_desc_4:
   - desc_4_item: Cat Boarding Application
   - desc_4_item: Dog Boarding Application
 
+body_heading_links : Please complete the following application and return prior to boarding
+body_desc_links:
+  - desc_links: Cat Boarding Application
+  - desc_links: Dog Boarding Application
+
 body_heading_5 : All animal guests must be able to be handled in a safe, and loving manner, therefore we cannot permit overtly-aggressive animals.
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
