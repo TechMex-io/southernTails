@@ -17,19 +17,18 @@ layout: default
         <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
           {{ content }}
         </div>
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20 padding-top-0 uk-text-center bkg_tan uk-visible@s">
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s uk-text-center bkg_tan uk-visible@s">
             <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_2 }}" style="width:500px;" alt="">
         </div>
       </div>
     </div>
 
-
-
     <!-- Different types of Service -->
     <div class="uk-section uk-margin-small-top uk-margin-small-bottom uk-padding-small">
         <div class="uk-margin-small-top" uk-grid>
+          <!-- section 1 -->
           <div class="uk-flex uk-flex-middle uk-margin-large-bottom">
-            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-left-20 padding-top-0 uk-text-center bkg_tan">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s uk-text-center bkg_tan">
               <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_4 }}" style="width:500px;" alt="">
             </div>
             <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
@@ -46,7 +45,7 @@ layout: default
               <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
             </div>
           </div>
-
+          <!-- section 2 -->
           <div class="uk-flex uk-flex-middle uk-margin-large-bottom">
             <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
               <h3 class="uk-heading under-score">{{ page.body_heading_2 }}</h3>
@@ -57,42 +56,38 @@ layout: default
                   {% endfor %}
               </ul>
             </div>
-            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s padding-top-0 uk-text-center bkg_tan uk-visible@s">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s uk-text-center bkg_tan uk-visible@s">
               <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_3 }}" style="width:500px;" alt="">
             </div>
           </div>
-
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan uk-visible@s">
-            <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_6 }}" style="width:500px;" alt="">
-          </div>
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
-            <h3 class="uk-heading under-score">{{ page.body_heading_3 }}</h3>
-            <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
-            <ul>{% for items in page.body_desc_3 %}
-              <li>
-                {{ items.desc_3_item }}
-              </li>
-                {% endfor %}
-            </ul>
-            <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
+          <!-- section 3 -->
+          <div class="uk-flex uk-flex-middle uk-margin-large-bottom">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan uk-visible@s">
+              <img class="uk-box-shadow-large uk-border-rounded" src="{{site.baseurl}}/assets/images/grooming/{{ page.grooming_img_6 }}" style="width:500px;" alt="">
+            </div>
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
+              <h3 class="uk-heading under-score">{{ page.body_heading_3 }}</h3>
+              <ul>{% for items in page.body_desc_3 %}
+                <li>
+                  {{ items.desc_3_item }}
+                </li>
+                  {% endfor %}
+              </ul>
+            </div>
           </div>
 
           <div class="uk-width-1-1@s">
             <p>{{ page.body_heading_4 }}</p>
-            <!-- <img src="./assets/images/justin-veenema-156592-unsplash.jpg" alt=""> -->
             <ul>{% for items in page.body_desc_4 %}
               <li>
                 {{ items.desc_4_item }}
               </li>
                 {% endfor %}
             </ul>
-            <!-- <a class="uk-button uk-button-default" href="#" style="border: 1px solid darkgrey;">CTA?</a> -->
           </div>
 
-          <div class="uk-width-1-1@s">
+          <div class="uk-width-1-1@s uk-text-center">
             <p>{{ page.body_heading_5 }}</p>
-            <!-- <hr class="hr_blk">
-            <p class="uk-text-center">{{ page.body_cta }}</p> -->
           </div>
 
         </div>
