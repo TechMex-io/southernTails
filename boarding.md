@@ -35,10 +35,10 @@ body_desc_3:
   - desc_3_item: Rabies
   - desc_3_item: FVRCP
 
-# body_heading_4 : null
-# body_desc_4:
-#   - desc_4_item: null
-#   - desc_4_item: null
+body_heading_4 : null
+body_desc_4:
+  - desc_4_item: null
+  - desc_4_item: null
 
 body_heading_links : Please complete the following application and return prior to boarding
 body_desc_links:

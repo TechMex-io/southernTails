@@ -76,8 +76,9 @@ layout: default
             </div>
           </div>
           <!-- Last list of bulleted items with no photo -->
+          {% if page.body_heading_4  != null %}
           <div class="uk-width-1-1@s">
-            <p>{{ page.body_heading_4 }}</p>
+            <h3>{{ page.body_heading_4 }}</h3>
             <ul>{% for items in page.body_desc_4 %}
               <li>
                 {{ items.desc_4_item }}
@@ -85,13 +86,14 @@ layout: default
                 {% endfor %}
             </ul>
           </div>
+          {% endif %}
           <!-- List of links-->
           <div class="uk-width-1-1@s">
             <h3>{{ page.body_heading_links }}</h3>
-            <ul>{% for items in page.body_desc_links %}
-              <a href="{{items.desc_url}}">
+            <ul style="list-style-type: none;">{% for items in page.body_desc_links %}
+             <li> <a href="{{items.desc_url}}">
                 {{ items.desc_links }}
-              </a>
+              </a></li>
                 {% endfor %}
             </ul>
           </div>
