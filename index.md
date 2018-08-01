@@ -26,7 +26,7 @@ service2_descriptions:
   - msg: All guests must be screened for their vaccinations
 service3: Doggie Day Camp
 service3_short_name: Day Camp
-service3_photo: service-Daycare.jpg
+service3_photo: daycare_dogs.jpg
 service3_descriptions:
   - msg: Dogs are accompanied by technicians 100% of their stay
   - msg: All dogs must be completely vaccinated
@@ -34,7 +34,7 @@ service3_descriptions:
   - msg: Small/Medium dogs and large dogs have separate play areas 
 service4: Pet Boutique
 service4_short_name: Boutique
-service4_photo: service-Boutique.jpg
+service4_photo: store.jpg
 service4_descriptions:
   - msg: We only offer high-quality foods that cannot be found in “big box” stores
   - msg: We focus on local artisans and provide a venue for high quality craftmanship dedicated to pets
