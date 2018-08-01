@@ -58,7 +58,8 @@ body_cta : Give us a call for pricing, as prices vary per breed.
 ---
 All specialists in the pet industry recommend regular grooming. This service not only assists with the overall appearance, but also, with the pet’s general health. At Southern Tails, we take these recommendations serious. We are committed to providing excellent, comprehensive service to every client. Our technicians are trained to conduct an overall inspection on every pet during every service. Each technician carefully documents the pet’s behavior, specific techniques utilized, and products used during the visit. Our observations are always recorded and discussed with the caretakers before and after the service is completed. We report any issue that we notice during the grooming process and provide suggestions to ensure that all future appointments are successful.
 
-####Grooming Health Requirements
+#### Grooming Health Requirements
+
 We provide services to all breeds. However, there are specific health requirements for every pet.
 - Rabies Vaccinations (at least 24 hours in advance and must be confirmed by veterinarian documentation)
 - 2nd Set of Vaccinations in Series (puppies only)
