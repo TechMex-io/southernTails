@@ -10,11 +10,11 @@ header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
 body_heading_1: Facilities Include
 grooming_img_1: ct6cp7_B.jpg
-grooming_img_2: ct6cp7_A.jpeg
-grooming_img_3: BGk9p9SQ.jpeg
-grooming_img_4: Ia8kUZwA.jpeg
+grooming_img_2: QG-DYE4A.jpeg
+grooming_img_3: 447fE0bQ.jpeg
+grooming_img_4: 447fE0bQ.jpeg
 grooming_img_5: Isf8owCw.jpeg
-grooming_img_6: w85VfaSA.jpeg
+grooming_img_6: sBq_cruQ.jpeg
 body_desc_1:
   - desc_1_item: State of the art climate-controlled indoor pet facility.
   - desc_1_item: For our canines, our “dog hotel” of individual condos standard with a cot and/or bed.
