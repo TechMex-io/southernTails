@@ -1,14 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:400,600,700');
 /* message on header */
 #home_message_header {
-  font-family: 'Montserrat:800i', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 700;
 }
 #home_message_body {
-  font-family: 'Montserrat:400', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
 }
 #home_message_cta {
-  font-family: 'Montserrat:800', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
 }
 
 
