@@ -39,7 +39,7 @@ layout: default
                 </li>
                   {% endfor %}
               </ul>
-              {% if page.body.heading_1a != null %}
+              {% if page.body_heading_1a != null %}
               <h3 class="uk-heading under-score">{{ page.body_heading_1a }}</h3>
               <ul>{% for items in page.body_desc_1a %}
                 <li>
@@ -60,7 +60,7 @@ layout: default
                 </li>
                   {% endfor %}
               </ul>
-              {% if page.body.heading_2a != null %}
+              {% if page.body_heading_2a != null %}
               <h3 class="uk-heading under-score">{{ page.body_heading_2a }}</h3>
               <ul>{% for items in page.body_desc_2a %}
                 <li>
@@ -82,14 +82,16 @@ layout: default
             <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s bkg_tan">
               <h3 class="uk-heading under-score">{{ page.body_heading_3 }}</h3>
               {% if page.body_heading_3_sub1 != null %}
-              <h4 class="uk-heading under-score">{{ page.body_heading_3_sub1 }}</h4>
-              <ul>{% for items in page.body_desc_3_sub1 %}
+              <h4 class="uk-heading">{{ page.body_heading_3_sub1 }}</h4>
+              {% endif %}
+              <ul>{% for items in page.body_desc_3 %}
                 <li>
                   {{ items.desc_3_item }}
                 </li>
                   {% endfor %}
               </ul>
-              <h4 class="uk-heading under-score">{{ page.body_heading_3_sub2 }}</h4>
+              {% if page.body_heading_3_sub1 != null %}
+              <h4 class="uk-heading">{{ page.body_heading_3_sub2 }}</h4>
               <ul>{% for items in page.body_desc_3_sub2 %}
                 <li>
                   {{ items.desc_3_item }}

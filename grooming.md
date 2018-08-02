@@ -39,8 +39,8 @@ body_desc_2:
   - desc_2_item: Hypo-Allergenic - For those with extra sensitivities and allergies, we recommend this gentle tear-free solution.
   - desc_2_item: All Shampoo upgrades may be converted to Specialty Spas by adding a tooth brushing
 body_heading_2a: null
-body_heading_3: A La Carte Services
 body_heading_3_sub1: null
+body_heading_3: A La Carte Services
 body_desc_3:
   - desc_3_item: FURminator® Shed-less Spa Package - A fan Favorite. When your pet sheds, leave it to us to take care of the excess fur. This formula helps pull an excess of up to 90% of the loose undercoat when used regularly. No parabens or chemical dyes included.
   - desc_3_item: Nail trim & file - All nail trims include the nail clipping or the grinding of the nails, and are essential to keeping your pet healthy. No appointment necessary.

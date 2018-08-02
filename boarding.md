@@ -44,7 +44,7 @@ body_desc_2a:
 body_heading_3: Boarding Health Requirements
 body_heading_3_sub1: Canine Guests must have
 body_heading_3_sub2: Feline Guests must have
-body_desc_3_sub1:
+body_desc_3:
   - desc_3_item: Rabies
   - desc_3_item: Bordetella (Kennel Cough)
   - desc_3_item: DHPP
