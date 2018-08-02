@@ -8,30 +8,48 @@ header_image_tablet: grooming-Header_T.jpg
 header_image_tablet_h: grooming-Header_Th.jpg
 header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
-body_heading_1: Facilities Include
 grooming_img_1: ct6cp7_B.jpeg
 grooming_img_2: service-boarding.jpg
 grooming_img_3: smilingDog.jpg
 grooming_img_4: 447fE0bQ.jpeg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: QG-DYE4A.jpeg
+body_heading_1: Facilities Include
 body_desc_1:
-  - desc_1_item: State of the art climate-controlled indoor pet facility.
-  - desc_1_item: For our canines, our “dog hotel” of individual condos standard with a cot and/or bed.
-  - desc_1_item: For our kitties, we offer two large 3 tier cat hotels with their bathroom quarters at the bottom of each, and 2 cat trees for our tree dwellers. We only offer one extra large cat condo for one family, so please book in advance.
-  - desc_1_item: Fresh water is available at all times. Feel free to bring any reminders of home, although all condos come standard with sterilized stainless steel dishes. All dogs get plenty of exercise during their frequent walks. Cats will have several toys and cat-trees to stimulate their play. These perks help pets acclimate to the Southern Tails community.
-  - desc_1_item: Facilities are monitored 24 hours a day, 7 days a week to ensure everyone’s safety.
-  - desc_1_item: Technicians are trained in proper pet handling and up-to-date pet first aid practices, including CPR.
+  - desc_1_item: State-of-the-art, climate-controlled, indoor pet facility
+  - desc_1_item: 24 Hour Monitoring
+  - desc_1_item: Trained Technicians (pet handling, first-aid, and CPR)
+  - desc_1_item: Sterilized Dishes
 
-body_heading_2: All canines boarding must have all of the following vaccinations current
+body_heading_1a: Staff Provides 
+body_desc_1a:
+  - desc_1a_item: Frequent Walks
+  - desc_1a_item: Belly Rubs
+  - desc_1a_item: Treat Sneaks
+  - desc_1a_item: Daily Sanitization
+  - desc_1a_item: Feeding/Medication Requests
+
+body_heading_2: Canine Lodging Includes
 body_desc_2:
-  - desc_2_item: Rabies
-  - desc_2_item: Bordetella (Kennel Cough)
-  - desc_2_item: Dhpp
-  - desc_2_item: Canine Influenza
+  - desc_2_item: Individual condos
+  - desc_2_item: Standard furnishings including cots and bedding
+  - desc_2_item: Stainless Steel Dishes
 
-body_heading_3: All felines boarding must have all of the following vaccinations current
-body_desc_3:
+body_heading_2a: Feline Lodging Includes
+body_desc_2a:
+  - desc_2a_item: 3-Tier Cat Hotels
+  - desc_2a_item: 2- Cat Trees
+  - desc_2a_item: Window Sling
+
+body_heading_3: Boarding Health Requirements
+body_heading_3_sub1: Canine Guests must have
+body_heading_3_sub2: Feline Guests must have
+body_desc_3_sub1:
+  - desc_3_item: Rabies
+  - desc_3_item: Bordetella (Kennel Cough)
+  - desc_3_item: DHPP
+  - desc_3_item: Canine Influenza (both H3N8 and H3N2)
+body_desc_3_sub2:
   - desc_3_item: Rabies
   - desc_3_item: FVRCP
 
@@ -52,8 +70,10 @@ body_desc_url_2: http://tech-mex.io/
 body_heading_5 : All animal guests must be able to be handled in a safe, and loving manner, therefore we cannot permit overtly-aggressive animals.
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
-Indoor luxury lodging for the modern pup. Whether on vacation or a surprise out of town meeting, we’re your trusted neighborhood family friend.
+Indoor luxury lodging for the modern pet. Whether on vacation or a simple night on the town, we are your trusted, fur-baby's friend.
 
-We understand that staying away from mom and dad overnight can be stressful for our furry babies,so when they stay at Southern Tails we strive for their ultimate comfort and trust. We want to earn that trust by providing our clients with exceptional boarding services that ensures your pet’s safety, health, and contentment. We commit to treating each client’s baby with individual customized care.
+Boarding Pets can be stressful to both the pets and their caregivers. Southern Tails wants to eliminate that stress by providing clients exceptional lodging services. The Southern Tails facility is designed for your pet’s safety, comfort, health, and contentment. Our staff is highly-qualified and compassionate. They are committed to offering each fur-baby customized care.
 
-At Southern Tails we offer private overnight lodging for both cats and dogs. Rest assured your baby will be safe and sound, just like they were at home.
+We want to be their home away from home!
+
+
