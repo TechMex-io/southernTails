@@ -59,7 +59,7 @@ body_desc_4:
 
 body_heading_links : null
 
-body_heading_5 : At Southern Tails, we are committed to only using premium products during their appointment. We dedicate ourselves to providing a professional, safe and clean state-of-the-art facility. We strive to offer clients an experience with only highly-knowledgeable and well-trained professionals.
+body_heading_5 : Southern Tails is honored to serve you! We are proud of our state-of-the-art facility, wide-range of premium products, and the professional grooming program.  Our entire staff would love to build a strong relationship with our Fur-ever Friends and their families and invite you to visit us today!
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
 All specialists in the pet industry recommend regular grooming. This service not only assists with the overall appearance, but also, with the pet’s general health. At Southern Tails, we take these recommendations serious. We are committed to providing excellent, comprehensive service to every client. Our technicians are trained to conduct an overall inspection on every pet during every service. Each technician carefully documents the pet’s behavior, specific techniques utilized, and products used during the visit. Our observations are always recorded and discussed with the caretakers before and after the service is completed. We report any issue that we notice during the grooming process and provide suggestions to ensure that all future appointments are successful.
