@@ -30,7 +30,7 @@
 
 <style>
   /* old footer style using grid */
-  .footer {
+  /* .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -38,7 +38,7 @@
     align-items: center;
     grid-gap: 10px;
     background: orange;
-  }
+  } */
 
   .bkg_orange {
     background: orange;
@@ -79,36 +79,36 @@
 
 
   @media only screen and (max-width: 960px){
-    .footer {
+    /* .footer {
     grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     .tabletMobileOFF{
       display: none;
     }
 
-    .icons {
+    /* .icons {
       grid-column: 1 / span 2;
-    }
+    } */
   }
 
   @media only screen and (max-width: 640px){
-    .footer {
+    /* .footer {
       grid-gap: 0px;
-    }
+    } */
 
-    .businessName {
+    /* .businessName {
       text-align: center;
       grid-column: 1/ span 2;
-    }
+    } */
 
     .businessName h5 {
       margin-top: 15px;
       font-size: 2em;
     }
-    .phoneNumber {
+    /* .phoneNumber {
       grid-column: 1/ span 2;
-    }
+    } */
 
     .phoneNumber h4 a {
       padding: 8px;
@@ -122,6 +122,10 @@
 
     .tabletMobileOFF{
       display: none;
+    }
+
+    .icons {
+      margin-top: 25px;
     }
 
   }
