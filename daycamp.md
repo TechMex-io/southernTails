@@ -1,8 +1,8 @@
 ---
 layout: service
-title: Daycamp
+title: Day Camp
 permalink: /daycamp/
-header_text: Doggie Daycamp
+header_text: Doggie Day Camp
 header_image_mobile: grooming-Header_M.jpg
 header_image_tablet: grooming-Header_T.jpg
 header_image_tablet_h: grooming-Header_Th.jpg
@@ -14,20 +14,21 @@ grooming_img_3: smilingDog.jpg
 grooming_img_4: 447fE0bQ.jpeg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: QG-DYE4A.jpeg
-body_heading_1: Facilities Include
+body_heading_1: Daycamp – Health Requirements
 body_desc_1:
-  - desc_1_item: State-of-the-art, climate-controlled, indoor pet facility
-  - desc_1_item: 24 Hour Monitoring
-  - desc_1_item: Trained Technicians (pet handling, first-aid, and CPR)
-  - desc_1_item: Sterilized Dishes
+  - desc_1_item: Rabies
+  - desc_1_item: Bordetella (Kennel Cough)
+  - desc_1_item: DHPP
+  - desc_1_item: Canine Influenza (both H3N8 and H3N2)
+  - desc_1_item: Day camp dogs over the age of six months must be spayed or neutered. Documentation for these procedures must be included with the day camp application.
 
-body_heading_1a: Staff Provides 
+body_heading_1a: null 
 body_desc_1a:
-  - desc_1a_item: Frequent Walks
-  - desc_1a_item: Belly Rubs
-  - desc_1a_item: Treat Sneaks
-  - desc_1a_item: Daily Sanitization
-  - desc_1a_item: Feeding/Medication Requests
+  - desc_1a_item: null
+  - desc_1a_item: null
+  - desc_1a_item: null
+  - desc_1a_item: null
+  - desc_1a_item: null
 
 body_heading_2: Canine Lodging Includes
 body_desc_2:
@@ -81,7 +82,7 @@ Doggie Day camp is one way to provide much needed exercise, which relieves the s
  - Lack of Socialization
  - Chewing, digging, and even the destruction of property
 
-__**Daycamp is a solution when life gets busy**__
+__Daycamp is a solution when life gets busy__
  - Maid services
  - Busy errand day
  - Realtor visits
