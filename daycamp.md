@@ -10,11 +10,11 @@ header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
 grooming_img_1: ct6cp7_B.jpeg
 grooming_img_2: daycamp1.jpg
-grooming_img_3: smilingDog.jpg
-grooming_img_4: 447fE0bQ.jpeg
+grooming_img_3: daycamp3.jpg
+grooming_img_4: daycamp2.jpg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: QG-DYE4A.jpeg
-body_heading_1: Daycamp – Health Requirements
+body_heading_1: Day Camp – Health Requirements
 body_desc_1:
   - desc_1_item: Rabies
   - desc_1_item: Bordetella (Kennel Cough)
@@ -71,7 +71,7 @@ body_desc_url_2: https://techmex-io.github.io/southernTails/assets/FelineBoardin
 body_heading_5 : All animal guests must be able to be handled in a safe, and loving manner, therefore we cannot permit overtly-aggressive animals.
 body_cta : Give us a call for pricing, as prices vary per breed.
 ---
-Doggie Day camp is one way to provide much needed exercise, which relieves the stress and behavior related to dogs that have too much “downtime” on their paws! Southern Tails offers a great solution for that downtime. Here, our goal is to provide exceptional care for your dog in a safe, clean, and activity-filled environment. Our Bark Rangers want to encourage healthy and positive interaction with your furry babies offering a state-of-the-art facility unlike any other. We offer a climate controlled indoor park separated by dog size and temperament. In addition, large equipment is placed in each room so that each dog may enjoy climbing and working on agility skills. Southern Tails also provides smaller toys so that we can actively engage in play such as toss, fetch, and tug. All equipment is cleaned and assessed for wear each day. Trained Technicians (pet handling, first-aid, and CPR) will be there every step of the day.
+Day camp is one way to provide much needed exercise, which relieves the stress and behavior related to dogs that have too much “downtime” on their paws! Southern Tails offers a great solution for that downtime. Here, our goal is to provide exceptional care for your dog in a safe, clean, and activity-filled environment. Our Bark Rangers want to encourage healthy and positive interaction with your furry babies offering a state-of-the-art facility unlike any other. We offer a climate controlled indoor park separated by dog size and temperament. In addition, large equipment is placed in each room so that each dog may enjoy climbing and working on agility skills. Southern Tails also provides smaller toys so that we can actively engage in play such as toss, fetch, and tug. All equipment is cleaned and assessed for wear each day. Trained Technicians (pet handling, first-aid, and CPR) will be there every step of the day.
 
 #### Daycamp is a solution for pets suffering from
  - Boredom
