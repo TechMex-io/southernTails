@@ -44,7 +44,7 @@ body_desc_2a:
   - desc_2a_item: null
   - desc_2a_item: null
 
-body_heading_3: Keeping our Day Camp safe for all dogs
+body_heading_3: Keeping Day Camp safe for all dogs
 body_heading_3_sub1: Temperament Assessment
 body_heading_3_sub2: All dogs must have a boarding application on file
 body_desc_3:
