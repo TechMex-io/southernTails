@@ -14,27 +14,29 @@ grooming_img_3: daycamp3.jpg
 grooming_img_4: daycamp2.jpg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: QG-DYE4A.jpeg
-body_heading_1: Day Camp – Health Requirements
+body_heading_1: Day camp is a solution for pets suffering from
 body_desc_1:
-  - desc_1_item: Rabies
-  - desc_1_item: Bordetella (Kennel Cough)
-  - desc_1_item: DHPP
-  - desc_1_item: Canine Influenza (both H3N8 and H3N2)
-  - desc_1_item: Day camp dogs over the age of six months must be spayed or neutered. Documentation for these procedures must be included with the day camp application.
+  - desc_1_item: Boredom 
+  - desc_1_item: Excessive Energy
+  - desc_1_item: Separation anxiety 
+  - desc_1_item: Depression
+  - desc_1_item: Excessive barking or aggression
+  - desc_1_item: Lack of Socialization
+  - desc_1_item: Chewing, digging, and even the destruction of property 
 
-body_heading_1a: null 
+body_heading_1a: Day camp is a solution when life gets busy
 body_desc_1a:
-  - desc_1a_item: null
-  - desc_1a_item: null
-  - desc_1a_item: null
-  - desc_1a_item: null
-  - desc_1a_item: null
+  - desc_1a_item: Maid services
+  - desc_1a_item: Busy errand day
+  - desc_1a_item: Realtor visits
 
-body_heading_2: Canine Lodging Includes
+body_heading_2: Day Camp – Health Requirements
 body_desc_2:
-  - desc_2_item: Individual condos
-  - desc_2_item: Standard furnishings including cots and bedding
-  - desc_2_item: Stainless Steel Dishes
+  - desc_2_item: Rabies
+  - desc_2_item: Bordetella (Kennel Cough)
+  - desc_2_item: DHPP
+  - desc_2_item: Canine Influenza (both H3N8 and H3N2)
+  - desc_2_item: Day camp dogs over the age of six months must be spayed or neutered. Documentation for these procedures must be included with the day camp application.
 
 body_heading_2a: Feline Lodging Includes
 body_desc_2a:
@@ -73,18 +75,5 @@ body_cta : Give us a call for pricing, as prices vary per breed.
 ---
 Day camp is one way to provide much needed exercise, which relieves the stress and behavior related to dogs that have too much “downtime” on their paws! Southern Tails offers a great solution for that downtime. Here, our goal is to provide exceptional care for your dog in a safe, clean, and activity-filled environment. Our Bark Rangers want to encourage healthy and positive interaction with your furry babies offering a state-of-the-art facility unlike any other. We offer a climate controlled indoor park separated by dog size and temperament. In addition, large equipment is placed in each room so that each dog may enjoy climbing and working on agility skills. Southern Tails also provides smaller toys so that we can actively engage in play such as toss, fetch, and tug. All equipment is cleaned and assessed for wear each day. Trained Technicians (pet handling, first-aid, and CPR) will be there every step of the day.
 
-#### Daycamp is a solution for pets suffering from
- - Boredom
- - Excessive Energy
- - Separation anxiety
- - Depression
- - Excessive barking or aggression
- - Lack of Socialization
- - Chewing, digging, and even the destruction of property
-
-__Daycamp is a solution when life gets busy__
- - Maid services
- - Busy errand day
- - Realtor visits
 
 
