@@ -13,7 +13,7 @@ grooming_img_2: daycamp1.jpg
 grooming_img_3: daycamp3.jpg
 grooming_img_4: daycamp2.jpg
 grooming_img_5: Isf8owCw.jpeg
-grooming_img_6: daycamp4.jpeg
+grooming_img_6: daycamp4.jpg
 body_heading_1: Day Camp is a solution for pets suffering from
 body_desc_1:
   - desc_1_item: Boredom 
@@ -44,17 +44,18 @@ body_desc_2a:
   - desc_2a_item: null
   - desc_2a_item: null
 
-body_heading_3: null
+body_heading_3: Keeping our Day Camp safe for all dogs
 body_heading_3_sub1: Temperament Assessment
-body_heading_3_sub2: All dogs must have a boarding application on file.
+body_heading_3_sub2: All dogs must have a boarding application on file
 body_desc_3:
-  - desc_3_item: Rabies
-  - desc_3_item: Bordetella (Kennel Cough)
-  - desc_3_item: DHPP
-  - desc_3_item: Canine Influenza (both H3N8 and H3N2)
+  - desc_3_item: Before your dog is approved for day camp we will schedule a screening to assess your dog’s temperament
+  - desc_3_item: This screening is complimentary and takes about twenty minutes
+  - desc_3_item: Dogs must be able to socialize with both humans (male and female) and other dogs
+  - desc_3_item: During this time, we also determine the best room placement for your dog
+  - desc_3_item: In rare cases unforeseen behavioral problems emerge after the initial screening, which may revoke the acceptance status
 body_desc_3_sub2:
-  - desc_3_item: Day Camp hours are M – F 6:30a – 6:30p
-  - desc_3_item: If you need special exceptions made and aren’t sure if we can help, give us a call!
+  - desc_3_item: Day Camp hours, M – F 6:30a – 6:30p
+  - desc_3_item: If you need special exceptions made and are not sure if we can help, give us a call!
 
 body_heading_4 : null
 body_desc_4:
