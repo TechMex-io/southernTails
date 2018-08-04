@@ -63,7 +63,7 @@ body_desc_link_1: Dog Boarding Application
 body_desc_link_2: Cat Boarding Application
 
 body_desc_url_1: https://techmex-io.github.io/southernTails/assets/CanineBoardingApplication.pdf
-body_desc_url_2: http://tech-mex.io/
+body_desc_url_2: https://techmex-io.github.io/southernTails/assets/FelineBoardingApplication.pdf
 
 
 

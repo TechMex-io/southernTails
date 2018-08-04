@@ -18,23 +18,23 @@
 
 
 /* css grid starts here */
-.nav_parent{
+/* .nav_parent{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: minmax(25px, auto);
   grid-gap: .5em;
   justify-items: center;
   background-color: #015596;
-}
+} */
 
-.nav_menu {
+/* .nav_menu {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   justify-items: center;
   padding: 10px;
   color: white;
   background-color: #015596;
-}
+} */
 
 .nav_menu div {
   padding: 0px 25px;
