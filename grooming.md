@@ -97,4 +97,4 @@ We provide services to all breeds. However, there are specific health requiremen
 
 * Rabies Vaccinations (at least 24 hours in advance and must be confirmed by veterinarian documentation)
 * 2nd Set of Vaccinations in Series (puppies only)
-* Dogs with medical needs must be cleared by the veterinarian. Grooms/Baths cannot be performed on dogs with stitches, cuts, lacerations, abrasions, etc.
+* Dogs with medical needs must be cleared by the veterinarian. Grooms/Baths cannot be performed on dogs with stitches, cuts, lacerations, abrasions, etc
