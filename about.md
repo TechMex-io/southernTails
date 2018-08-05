@@ -1,10 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+
 ---
-
-!!!This FUCKING logo is purple!!!
-
+This is a placeholder page.
 
 ![Southern Paws Logo](/assets/logo_small.svg)
