@@ -1,11 +1,9 @@
 ---
 layout: store
 title: Boutique
-permalink: /boutique/
-
+permalink: "/boutique/"
 section_2_title: Brands We Carry
-section_2_desc: Blah Blah Blah
-
+section_2_desc: ''
 
 ---
 Placeholder text here
