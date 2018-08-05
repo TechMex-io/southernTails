@@ -15,13 +15,13 @@ section_1_imgs:
 section_2_title: Brands We Carry
 section_2_desc: Blah Blah Blah
 section_2_imgs:
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
-  - sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
+  sec_2_img: daycamp1.jpg
 
 ---
 Placeholder text here
