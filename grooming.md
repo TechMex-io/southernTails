@@ -8,9 +8,9 @@ header_image_tablet: grooming-Header_T.jpg
 header_image_tablet_h: grooming-Header_Th.jpg
 header_image_desktop: grooming-Header_D.jpg
 header_image_large_desktop: grooming-Header_LD.jpg
-grooming_img_1: "/uploads/ct6cp7_B.jpeg"
-grooming_img_2: "/uploads/ct6cp7_A.jpeg"
-grooming_img_3: "/uploads/BGk9p9SQ.jpeg"
+grooming_img_1: ct6cp7_B.jpeg
+grooming_img_2: ct6cp7_A.jpeg
+grooming_img_3: "/uploads/IMG_2753-full.jpg"
 grooming_img_4: JulioBath.jpg
 grooming_img_5: Isf8owCw.jpeg
 grooming_img_6: w85VfaSA.jpeg
